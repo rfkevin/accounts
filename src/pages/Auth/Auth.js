@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Part from "./Part";
-import { setRefreshCaptcha } from '../Component/Captcha/slices';
+import { setRefreshCaptcha } from '../../Component/Captcha/slices';
 import Captcha from '../../Component/Captcha/captcha';
 
 import jwt_decode from "jwt-decode";

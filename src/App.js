@@ -34,7 +34,7 @@ const Apps = () => {
       <BrowserRouter>
         <Box bgcolor="background">
           <Routes>
-            <Route path="/Entry" element={<Auth />} />
+            <Route path="/" element={<Auth />} />
             <Route path="/Email" element={<EmailConfirmation />} />
             <Route path="/ForgetPassword" element={<ForgetPassword />} />
           </Routes>
